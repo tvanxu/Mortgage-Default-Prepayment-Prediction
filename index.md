@@ -233,7 +233,7 @@ Loan-specific metrics like credit scores, loan-to-value, debt-to-income, as well
 Two ways to enhance investment returns: 1. to implement a stronger screening process according to borrowers’ personal background – if they have any default history, if they have a high credit score, are they married and have kids, etc., 2. to identify geographic areas where housing prices have the biggest upward potentials and the market is robust and liquid. 
 
 
-
+---
 
 ## Project 2: Predicting Mortgage Default and Prepayment via Cox Proportional Hazards Models (R)
 
