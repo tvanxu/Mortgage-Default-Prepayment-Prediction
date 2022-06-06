@@ -17,7 +17,7 @@ We performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemp
 
 ### Default Model
 
-<img width="359" alt="image" src="https://user-images.githubusercontent.com/63265930/172236492-74d2f774-0a36-4912-be26-4c0fc8e585e5.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/63265930/172236492-74d2f774-0a36-4912-be26-4c0fc8e585e5.png">
 
 
 Schoenfeld Residuals of some selected variables
@@ -30,7 +30,7 @@ Schoenfeld Residuals of some selected variables
 
 ### Prepay Model
 
-<img width="405" alt="image" src="https://user-images.githubusercontent.com/63265930/172236994-7c98caec-790e-4e0f-a804-b89e4400978a.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/63265930/172236994-7c98caec-790e-4e0f-a804-b89e4400978a.png">
 
 
 Schoenfeld Residuals of some selected variables
