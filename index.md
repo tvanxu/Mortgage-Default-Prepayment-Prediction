@@ -1,16 +1,16 @@
 # Predicting Mortgage Default and Prepayment via Cox Proportional Hazards Models
 
 
-Tiancheng Xu
-
-Apr - May 2022
-
-
 I worked on 2 similar projects that predict mortgage default and prepayment.
+
 
 ## Project 1: Predicting Mortgage Default and Prepayment via Cox Proportional Hazards Models (R)
 
-Performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemployment rates and House Price Indices; using survival package, trained multiple coxph models and determined the best choice of variables through cross-validation; predicted default/prepayment; visualized cumulative probabilities using ggplot2 to report the default/prepayment likelihood of a given loan.
+Tiancheng Xu, Ford Danielsen, Rishabh Kumar, Sundar Ryali, Van Xu, Evelyn Zhang
+
+Apr 2022
+
+We performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemployment rates and House Price Indices; using survival package in R, we trained multiple coxph models and determined the best choice of variables through cross-validationa and comparison of AICs; we predicted default/prepayment; we visualized cumulative probabilities using ggplot2 to report the default/prepayment likelihood of a given loan.
 
 
 R Code:
