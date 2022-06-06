@@ -1,4 +1,4 @@
-# Mortgage Default & Prepayment Prediction
+# Predicting Mortgage Default and Prepayment via Cox Proportional Hazards Models
 
 
 Tiancheng Xu
