@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Mortgage Default & Prepayment Prediction
 
-You can use the [editor on GitHub](https://github.com/tianchengXu/Mortgage-Default-Prepayment-Prediction/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Tiancheng Xu
 
-### Markdown
+Apr - May 2022
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+I worked on 2 similar projects that predict mortgage default and prepayment.
 
-# Header 1
-## Header 2
-### Header 3
+Project 1: Predicting Mortgage Default and Prepayment via Cox Proportional Hazards Models (R)
+Performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemployment rates and House Price Indices; using survival package, trained multiple coxph models and determined the best choice of variables through cross-validation; predicted default/prepayment; visualized cumulative probabilities using ggplot2 to report the default/prepayment likelihood of a given loan.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tianchengXu/Mortgage-Default-Prepayment-Prediction/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Project 2: Exploratory Data Analysis and Default/Prepayment Models for Unison (Python)
+Using lifeline package in Python, trained multiple coxph models and compared the best choice of variables; applied k-fold cross-validation; predicted default/prepayment; visualized mortgage default/prepayment distribution with matplotlib.
