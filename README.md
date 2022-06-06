@@ -1,6 +1,6 @@
 # Mortgage-Default-Prepayment-Prediction
 
-I worked on 2 similar projects that predicts mortgage default and prepayment
+I worked on 2 similar projects that predict mortgage default and prepayment
 
 # Project 1: Predicting Mortgage Default and Prepayment via Cox Proportional Hazards Models (R)
 
