@@ -10,7 +10,51 @@ Tiancheng Xu, Ford Danielsen, Rishabh Kumar, Sundar Ryali, Van Xu, Evelyn Zhang
 
 Apr 2022
 
+
+### Summary
 We performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemployment rates and House Price Indices; using survival package in R, we trained multiple coxph models and determined the best choice of variables through cross-validationa and comparison of AICs; we predicted default/prepayment; we visualized cumulative probabilities using ggplot2 to report the default/prepayment likelihood of a given loan.
+
+
+### Default Model
+
+<img width="359" alt="image" src="https://user-images.githubusercontent.com/63265930/172236492-74d2f774-0a36-4912-be26-4c0fc8e585e5.png">
+
+
+Schoenfeld Residuals of some selected variables
+
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/63265930/172236646-0ebfe143-5f80-46a9-bbe8-751db34ddc55.png">
+
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/63265930/172236685-0e41a8bb-b294-4942-ba87-83c51b5737fd.png">
+
+
+Cumulative Default Probability of the model
+
+<img width="461" alt="image" src="https://user-images.githubusercontent.com/63265930/172236810-be29d09f-0207-4558-a8f1-60f9e51e8087.png">
+
+
+
+### Prepay Model
+
+<img width="405" alt="image" src="https://user-images.githubusercontent.com/63265930/172236994-7c98caec-790e-4e0f-a804-b89e4400978a.png">
+
+
+Schoenfeld Residuals of some selected variables
+
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/63265930/172237065-e1e00b87-d917-4e15-99eb-d0dd0403c96f.png">
+
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/63265930/172237121-85f4e60b-dcb2-4a73-9efa-55ba2be9f900.png">
+
+
+Cumulative Prepayment Probability of the model
+
+<img width="449" alt="image" src="https://user-images.githubusercontent.com/63265930/172237252-2de9dcff-cddb-49b8-847d-faa0eb7df70d.png">
+
+
+
+### Prediction
+
+After building the models, we also tried to predict the default / prepayment status on an imaginary loan. See the R code below for details.
+
 
 
 R Code:
