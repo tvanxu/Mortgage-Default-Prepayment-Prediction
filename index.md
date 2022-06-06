@@ -27,11 +27,6 @@ Schoenfeld Residuals of some selected variables
 <img width="325" alt="image" src="https://user-images.githubusercontent.com/63265930/172236685-0e41a8bb-b294-4942-ba87-83c51b5737fd.png">
 
 
-Cumulative Default Probability of the model
-
-<img width="461" alt="image" src="https://user-images.githubusercontent.com/63265930/172236810-be29d09f-0207-4558-a8f1-60f9e51e8087.png">
-
-
 
 ### Prepay Model
 
@@ -45,15 +40,19 @@ Schoenfeld Residuals of some selected variables
 <img width="325" alt="image" src="https://user-images.githubusercontent.com/63265930/172237121-85f4e60b-dcb2-4a73-9efa-55ba2be9f900.png">
 
 
-Cumulative Prepayment Probability of the model
-
-<img width="449" alt="image" src="https://user-images.githubusercontent.com/63265930/172237252-2de9dcff-cddb-49b8-847d-faa0eb7df70d.png">
-
-
 
 ### Prediction
 
 After building the models, we also tried to predict the default / prepayment status on an imaginary loan. See the R code below for details.
+
+Cumulative Default Probability of the model
+
+<img width="461" alt="image" src="https://user-images.githubusercontent.com/63265930/172236810-be29d09f-0207-4558-a8f1-60f9e51e8087.png">
+
+Cumulative Prepayment Probability of the model
+
+<img width="449" alt="image" src="https://user-images.githubusercontent.com/63265930/172237252-2de9dcff-cddb-49b8-847d-faa0eb7df70d.png">
+
 
 
 
