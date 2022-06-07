@@ -11,7 +11,12 @@ Tiancheng Xu
 May 2022
 
 ### Summary
-I loaded data using SQL and visualized its distribution with matplotlib in Python. Using lifeline package in Python, I built a preliminary coxph model, fitted it with data and applied k-fold cross-validation with concordance-index.
+
+Working with historical Freddie Mac single-family loan level data, I tried to understand the default/prepayment behaviors, their distribution across different orgination years or different ages, and their relationship with other factors. and thwith matplotlib in Python. I looked into the implications of these behaviors on the loan-lending or house-coinvesting business. I also build a very preliminary CoxPH model, fitted it with data and applied k-fold cross-validation with concordance-index. I made an in-depth analysis on how Unison should leverage these information to raise profit and to avoid risks in its line of business - home co-investing.
+
+Future improvement needed: cross-compare more models (with different factors), and use different Ks for k-fold cross-validation to fine-tune the model; expand the analysis to other housing types, including apartments and condos, to obtain a more exhaustive overview of the housing market.
+
+---
 
 ### Primer
 Unison's REA (Rental Equity Agreement) issues a homeowner a certain amount of cash (a percentage of house value) in year 0, but instead of asking for monthly repayment, it asks for the pricipal and a certain percentage in the "value change" of the house in year 30 (or at the time of termination of the agreement, whichever comes earlier).
