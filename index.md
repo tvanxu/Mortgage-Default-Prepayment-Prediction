@@ -4,7 +4,7 @@
 I worked on 2 similar projects that predict mortgage default and prepayment.
 
 
-## Project 1: Exploratory Data Analysis and Default/Prepayment Models for Unison's REA(Python)
+## Project 1: Exploratory Data Analysis and Default/Prepayment Models for Unison's REA (Python)
 
 Tiancheng Xu
 
@@ -13,6 +13,8 @@ May 2022
 ### Summary
 
 Working with historical Freddie Mac single-family loan level data, I tried to understand the default/prepayment behaviors, their distribution across different orgination years or different ages, and their relationship with other factors. and thwith matplotlib in Python. I looked into the implications of these behaviors on the loan-lending or house-coinvesting business. I also build a very preliminary CoxPH model, fitted it with data and applied k-fold cross-validation with concordance-index. I made an in-depth analysis on how Unison should leverage these information to raise profit and to avoid risks in its line of business - home co-investing.
+
+Some of the Python packages used: numpy, pandas, matplotlib, lifeline, pymysql.
 
 Future improvement needed: cross-compare more models (with different factors), and use different Ks for k-fold cross-validation to fine-tune the model; expand the analysis to other housing types, including apartments and condos, to obtain a more exhaustive overview of the housing market.
 
@@ -249,8 +251,9 @@ Apr 2022
 
 
 ### Summary
-We performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemployment rates and House Price Indices; using survival package in R, we trained multiple coxph models and determined the best choice of variables through cross-validationa and comparison of AICs; we predicted default/prepayment; we visualized cumulative probabilities using ggplot2 to report the default/prepayment likelihood of a given loan.
+We performed ETL on 3M+ data from mortgage loans, mortgage rates, national unemployment rates, House Price Indices and more; using survival package in R, we trained multiple coxph models and determined the best choice of variables through cross-validationa and comparison of AICs; we predicted default/prepayment; we visualized cumulative probabilities using ggplot2 to report the default/prepayment likelihood of a given loan.
 
+---
 
 ### Default Model
 
