@@ -12,7 +12,7 @@ May 2022
 
 ### Summary
 
-Working with historical Freddie Mac single-family loan level data, I tried to understand the default/prepayment behaviors, their distribution across different orgination years or different ages, and their relationship with other factors. and thwith matplotlib in Python. I looked into the implications of these behaviors on the loan-lending or house-coinvesting business. I also build a very preliminary CoxPH model, fitted it with data and applied k-fold cross-validation with concordance-index. I made an in-depth analysis on how Unison should leverage these information to raise profit and to avoid risks in its line of business - home co-investing.
+Working with historical Freddie Mac single-family loan level data, I tried to understand the default/prepayment behaviors, their distribution across different orgination years or different ages, and their relationship with other factors, using matplotlib in Python. I looked into the implications of these behaviors on the loan-lending or house-coinvesting business. I also build a very preliminary CoxPH model, fitted it with data and applied k-fold cross-validation with concordance-index. I made an in-depth analysis on how Unison should leverage these information to raise profit and to avoid risks in its line of business - home co-investing.
 
 Some of the Python packages used: numpy, pandas, matplotlib, lifeline, pymysql.
 
