@@ -37,14 +37,14 @@ from lifelines.utils import k_fold_cross_validation
 ```
 # Connect to the MySQL database and query the data
 conn = pymysql.connect(
-    host='miniproject-qfa.cef17qxjlavg.us-west-2.rds.amazonaws.com',
+    host='xxxxx',
     port=int(3306),
-    user='newuser',
-    passwd='unisonim2.0',
-    db='AgencyData',
+    user='xxxxx',
+    passwd='xxxxx',
+    db='xxxxx',
     charset='utf8mb4')
 
-df = pd.read_sql_query("SELECT * FROM CleanFreddieSample", conn)
+df = pd.read_sql_query("xxxxx", conn)
 ```
 
 ```
